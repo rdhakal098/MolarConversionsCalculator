@@ -26,10 +26,6 @@ def MolesToParticles():
     print(MolAmnt * Mole)
 
 
-def ParticlesToMoles():
-    print("Moles to Grams")
-
-
 Elements = {
     "H": 1.008,
     "He": 4.003,
@@ -157,7 +153,6 @@ ConversionType = int(input())
 if ConversionType == 1:
     MolesToGrams()
 elif ConversionType == 2:
-    2
     GramsToMoles()
 elif ConversionType == 3:
     MolesToParticles()
